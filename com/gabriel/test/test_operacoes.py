@@ -1,6 +1,7 @@
 import pytest
 from com.gabriel.operacoes import operacoes
 
-def test_soma():
-  operacoes = operacoes()
-  assert operacoes.soma([1,5]) == 6, "Should be 6"
+def func(x):
+	return x + 1
+def test_answer():
+	assert func(3) == 4
