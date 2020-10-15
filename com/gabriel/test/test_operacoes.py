@@ -1,6 +1,3 @@
-import pytest
-from com.gabriel.operacoes import operacoes
-
 def func(x):
 	return x + 1
 def test_answer():
