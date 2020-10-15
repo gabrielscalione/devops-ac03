@@ -1,5 +1,5 @@
 import pytest
-from com.gabriel.operacoes import Operacoes
+from com.gabriel.operacoes import operacoes
 
 def test_soma():
   operacoes = Operacoes()
